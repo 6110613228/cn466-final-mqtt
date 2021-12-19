@@ -41,6 +41,7 @@ Publish ข้อมูลจาก sensors เเละ Insert ข้อมู�
 
 ### Design
 
+![CN466 IoT](https://user-images.githubusercontent.com/61135042/146675601-34fad557-5c8b-4eb7-87b6-1c3f17175fb3.png)
 
 ---
 
