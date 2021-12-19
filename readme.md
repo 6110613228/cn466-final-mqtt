@@ -23,14 +23,25 @@
   - [MQTT](#mqtt)
     - [หน้าที่](#หน้าที่)
     - [Design](#design)
-    - [การทำงาน](#การทำงาน)
+  - [Demo](#demo)
 
 ---
 
 ## MQTT
 
+cucumberS.ino เป็บไฟล์ของบอร์ดที่จะทำการ subscribe ข้อมูลที่ topic ที่กำหนดเเละ Publish ข้อมูลของ sensors ไปที่ hivemq
+
+mqtt.js ทำหน้าที่ในการ Subscribe hivemq ใน topic ที่กำหนดเเละทำการส่งข้อมูลที่ได้มาไปเก็บไว้ใน mongodb
+
+หน้าที่อีกอย่างในงานนี้คือการ Generate board id เเละ location ให้กับ board
+
 ### หน้าที่
+
+Publish ข้อมูลจาก sensors เเละ Insert ข้อมูลเข้า mongodb
 
 ### Design
 
-### การทำงาน
+
+---
+
+## Demo
